@@ -1,8 +1,13 @@
 # `poc-redis-search`
 
+This project aims to evaluate the possibilities and limitations of `redis-search` for the development of search functionalities.
+
+<!--
 ## `Objectives`
 
 - ...
+
+-->
 
 ## `References`
 
