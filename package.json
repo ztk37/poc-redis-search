@@ -1,0 +1,21 @@
+{
+  "name": "starter-bun-biome",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "biome lint *.ts",
+    "lint:apply": "biome lint *.ts --apply",
+    "format": "biome format *.ts",
+    "format:apply": "biome format *.ts --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  }
+}
